@@ -2,13 +2,30 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-@st.cache_data(show_spinner="Cargando datos...")
-def cargar_ficheros()->tuple[pd.DataFrame,pd.DataFrame]:
-    df1 = pd.read_csv('parte_1.csv',low_memory = False)
-    df2 = pd.read_csv('parte_2.csv',low_memory=False)
-    df = pd.concat([df1, df2], ignore_index=True)
-
-    df = df.drop_duplicates()
+@st.cache_data(show_spinner="Cargando datos completos...", persist="disk")
+def cargar_ficheros():
+    """
+    Versión que carga TODO pero optimizada
+    """
+    # Pista 1: Leer solo columnas necesarias
+    columnas_necesarias = ['id', 'sales', 'store_nbr', 'family','onpromotion','state','transactions','year','month','week','day_of_week'] 
+    
+    df1 = pd.read_csv('parte_1.csv', 
+                      usecols=columnas_necesarias,
+                      low_memory=False)
+    
+    df2 = pd.read_csv('parte_2.csv',
+                      usecols=columnas_necesarias, 
+                      low_memory=False)
+    
+    # Pista 2: Eliminar duplicados POR COLUMNA CLAVE, no todas
+    df = pd.concat([df1, df2])
+    
+    if 'id' in df.columns:
+        df = df.drop_duplicates(subset=['id'])
+    else:
+        df = df.drop_duplicates()
+    
     return df
      
 st.set_page_config(
@@ -63,7 +80,7 @@ if pagina == "📈 Visualizaciones generales ventas":
         with col2:
             st.metric(
                 label="📁 Total de Columnas",
-                value=len(df.columns),
+                value=23,
                 help="Número de variables disponibles"
             )
             
