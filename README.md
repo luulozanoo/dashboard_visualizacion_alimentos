@@ -48,11 +48,34 @@ openpyxl>=3.0.0
 ```
 ---
 
+## ⚙️ Cómo ejecutar el Dashboard en local
+Si deseas clonar este proyecto y ejecutarlo en tu propia máquina para explorar el código o los datos, sigue estos pasos:
+
+1. Clona el repositorio:
+Abre tu terminal y ejecuta:
+
+git clone [https://github.com/TU_USUARIO/TU_REPOSITORIO.git](https://github.com/TU_USUARIO/TU_REPOSITORIO.git)
+cd TU_REPOSITORIO
+
+2. Crea y activa un entorno virtual (Recomendado):
+
+-  En Windows:
+python -m venv venv
+venv\Scripts\activate
+
+-  En macOS/Linux:
+python3 -m venv venv
+source venv/bin/activate
+
+3. Instala las dependencias necesarias:
+
+pip install -r requirements.txt
+
 4. Lanza la aplicación:
 
 streamlit run app.py
 
-Una vez ejecutado, Streamlit abrirá automáticamente el dashboard en tu navegador en `http://localhost:8501`.
+Una vez ejecutado, Streamlit abrirá automáticamente el dashboard en tu navegador.
 
 ---
 
@@ -68,10 +91,10 @@ Si no deseas ejecutarlo en local, puedes acceder directamente a la versión desp
 
 Este proyecto ha sido desarrollado como solución analítica de alto nivel. Si tienes dudas, sugerencias o quieres colaborar, no dudes en contactar:
 
-* 👤 **Autor:** Tu Nombre
-* 📧 **Email:** tuemail@ejemplo.com
+* 👤 **Autor:** Lucía 
+* 📧 **Email:** lucia.lozano110@gmail.com
 * 💼 **LinkedIn:** [linkedin.com/in/tu-perfil](https://linkedin.com/in/tu-perfil)
-* 🐙 **GitHub:** [github.com/TU_USUARIO](https://github.com/TU_USUARIO)
+* 🐙 **GitHub:** [github.com/luulozanoo](https://github.com/luulozanoo)
 
 ---
 
