@@ -1,10 +1,11 @@
 # 📊 Dashboard de Ventas: Empresa de Alimentación 🚀
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://proyectofinalvisuadashboard.streamlit.app/)
+[![Streamlit App](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=Streamlit&logoColor=white)](https://proyectofinalvisuadashboard.streamlit.app/)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![Pandas](https://img.shields.io/badge/pandas-Data_Analysis-150458.svg?logo=pandas)](https://pandas.pydata.org/)
 
-> **Transformando millones de registros en decisiones estratégicas al instante.** > Este proyecto es una solución analítica de alto nivel diseñada para el CEO y la Dirección de Ventas de una importante multinacional de alimentación, con el objetivo de evaluar el rendimiento comercial de cara al cierre de año.
+> **Transformando millones de registros en decisiones estratégicas al instante.** > 
+> Este proyecto es una solución analítica de alto nivel diseñada para el CEO y la Dirección de Ventas de una importante multinacional de alimentación, con el objetivo de evaluar el rendimiento comercial de cara al cierre de año.
 
 Puedes probar la aplicación desplegada en Streamlit Cloud aquí: **[🔗 Acceder al Dashboard](https://proyectofinalvisuadashboard.streamlit.app/)**
 
