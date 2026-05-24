@@ -53,27 +53,31 @@ Si deseas clonar este proyecto y ejecutarlo en tu propia máquina para explorar 
 
 1. Clona el repositorio:
 Abre tu terminal y ejecuta:
-
+```bash
 git clone [https://github.com/TU_USUARIO/TU_REPOSITORIO.git](https://github.com/TU_USUARIO/TU_REPOSITORIO.git)
-cd TU_REPOSITORIO
+cd TU_REPOSITORIO+
+```
 
 2. Crea y activa un entorno virtual (Recomendado):
-
--  En Windows:
+```bash
+# En Windows:
 python -m venv venv
 venv\Scripts\activate
 
--  En macOS/Linux:
+# En macOS/Linux:
 python3 -m venv venv
 source venv/bin/activate
+```
 
 3. Instala las dependencias necesarias:
-
+```bash
 pip install -r requirements.txt
+```
 
 4. Lanza la aplicación:
-
+```bash
 streamlit run app.py
+```
 
 Una vez ejecutado, Streamlit abrirá automáticamente el dashboard en tu navegador.
 
