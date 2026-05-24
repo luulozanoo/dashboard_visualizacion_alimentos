@@ -7,8 +7,6 @@
 > **Transformando millones de registros en decisiones estratégicas al instante.** > 
 > Este proyecto es una solución analítica de alto nivel diseñada para el CEO y la Dirección de Ventas de una importante multinacional de alimentación, con el objetivo de evaluar el rendimiento comercial de cara al cierre de año.
 
-Puedes probar la aplicación desplegada en Streamlit Cloud aquí: **[🔗 Acceder al Dashboard](https://proyectofinalvisuadashboard.streamlit.app/)**
-
 ---
 
 ## 📑 Secciones del Dashboard
