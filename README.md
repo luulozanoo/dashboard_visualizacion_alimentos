@@ -47,3 +47,28 @@ plotly>=5.0.0
 matplotlib>=3.7.0
 seaborn>=0.12.0
 openpyxl>=3.0.0
+
+---
+
+⚙️ Cómo ejecutar el Dashboard en local
+Si deseas clonar este proyecto y ejecutarlo en tu propia máquina para explorar el código o los datos, sigue estos pasos:
+
+1. Clona el repositorio:
+Abre tu terminal y ejecuta:
+
+git clone [https://github.com/TU_USUARIO/TU_REPOSITORIO.git](https://github.com/TU_USUARIO/TU_REPOSITORIO.git)
+cd TU_REPOSITORIO
+
+2. Crea y activa un entorno virtual (Recomendado):
+
+# En Windows:
+python -m venv venv
+venv\Scripts\activate
+
+# En macOS/Linux:
+python3 -m venv venv
+source venv/bin/activate
+
+3. Instala las dependencias necesarias:
+
+pip install -r requirements.txt
