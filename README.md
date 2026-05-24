@@ -46,7 +46,8 @@ numpy>=1.24.0
 plotly>=5.0.0
 matplotlib>=3.7.0
 seaborn>=0.12.0
-openpyxl>=3.0.0```
+openpyxl>=3.0.0
+```
 ---
 
 ## ⚙️ Cómo ejecutar el Dashboard en local
@@ -60,11 +61,11 @@ cd TU_REPOSITORIO
 
 2. Crea y activa un entorno virtual (Recomendado):
 
-# En Windows:
+-  En Windows:
 python -m venv venv
 venv\Scripts\activate
 
-# En macOS/Linux:
+-  En macOS/Linux:
 python3 -m venv venv
 source venv/bin/activate
 
