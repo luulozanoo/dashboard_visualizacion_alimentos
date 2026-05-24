@@ -46,8 +46,7 @@ numpy>=1.24.0
 plotly>=5.0.0
 matplotlib>=3.7.0
 seaborn>=0.12.0
-openpyxl>=3.0.0
-text´´´
+openpyxl>=3.0.0```
 ---
 
 ## ⚙️ Cómo ejecutar el Dashboard en local
