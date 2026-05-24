@@ -50,7 +50,7 @@ openpyxl>=3.0.0
 
 ---
 
-⚙️ Cómo ejecutar el Dashboard en local
+## ⚙️ Cómo ejecutar el Dashboard en local
 Si deseas clonar este proyecto y ejecutarlo en tu propia máquina para explorar el código o los datos, sigue estos pasos:
 
 1. Clona el repositorio:
