@@ -55,7 +55,7 @@ Si deseas clonar este proyecto y ejecutarlo en tu propia máquina para explorar 
 Abre tu terminal y ejecuta:
 ```bash
 git clone [https://github.com/TU_USUARIO/TU_REPOSITORIO.git](https://github.com/TU_USUARIO/TU_REPOSITORIO.git)
-cd TU_REPOSITORIO+
+cd TU_REPOSITORIO
 ```
 
 2. Crea y activa un entorno virtual (Recomendado):
