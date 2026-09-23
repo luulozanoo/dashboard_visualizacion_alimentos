@@ -97,7 +97,7 @@ Este proyecto ha sido desarrollado como solución analítica de alto nivel. Si t
 
 * 👤 **Autor:** Lucía 
 * 📧 **Email:** lucia.lozano110@gmail.com
-* 💼 **LinkedIn:** [linkedin.com/in/tu-perfil](https://linkedin.com/in/tu-perfil)
+* 💼 **LinkedIn:** [linkedin.com/in/tu-perfil](https://linkedin.com/in/lucia-lozano-isac)
 * 🐙 **GitHub:** [github.com/luulozanoo](https://github.com/luulozanoo)
 
 ---
